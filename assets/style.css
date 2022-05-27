@@ -6,7 +6,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    margin: 0;
+    
     display: flex;
     /* puts items into a column */
     flex-direction: column;
@@ -16,4 +16,6 @@ body{
     justify-content: center;
     /* justify-content: center neds a height to work */
     height: 100vh;
+    overflow: hidden;
+    margin: 0;
 }
